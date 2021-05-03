@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Menu {
     public static void main(String[] args) {
+        //infinite loop while number != 3
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter radius of circle:");
         int radius = scanner.nextInt();
