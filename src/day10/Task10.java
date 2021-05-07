@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Task10 {
     public static void main(String[] args) {
+        //Create a two-dimensional array A [n] [m],
+        // fill it with the multiplication table A [i] [j] = i * j
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the first number :");
         int num1 = scanner.nextInt();

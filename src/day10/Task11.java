@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task11 {
     public static void main(String[] args) {
+        //filling array from right to left in diagonal
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter matrix row :");
         int row = scanner.nextInt();

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task12 {
     public static void main(String[] args) {
+        //filling array from end of previous fill
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter matrix row :");
         int row = scanner.nextInt();

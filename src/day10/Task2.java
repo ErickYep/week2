@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task2 {
     public static void main(String[] args) {
+//        Determine how many hours and minutes the digital clock will show at this moment
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter minutes :");
         int time = scanner.nextInt();

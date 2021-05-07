@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task5 {
     public static void main(String[] args) {
+        //Print all four-digit numbers on the segment from A to B, the record of which is a palindrome.
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter number A :");
         int a = scanner.nextInt();

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task9 {
     public static void main(String[] args) {
+//        Expand number into prime factors
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your number :");
         int number = scanner.nextInt();

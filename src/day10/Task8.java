@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Task8 {
     public static void main(String[] args) {
+        //Print the n-th term of a geometric progression
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the first number of geometric progression :");
         double firstValue = scanner.nextInt();

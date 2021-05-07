@@ -5,6 +5,7 @@ import java.util.SortedMap;
 
 public class Task7 {
     public static void main(String[] args) {
+//        draw an NxN checkerboard where the top left is white. Designate white margins O, black margins X
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your number :");
         int number = scanner.nextInt();
