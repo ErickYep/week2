@@ -11,13 +11,26 @@ public class Task10 {
         int num1 = scanner.nextInt();
         System.out.println("Enter the second number :");
         int num2 = scanner.nextInt();
-        int [][] matrix = new int[num1][num2];
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                matrix[i][j] = i*j;
-                System.out.print(matrix[i][j] + " ");
+        int[][] matrix = new int[num1][num2];
+        int j = 0;
+        for (int i = 0; i < matrix[0].length; i++) {
+            if (i+1==matrix[i].length){
+                matrix[j][i] = j*i;
+                i=0;
+                j++;
+
+                if(j==matrix.length)
+                    break;
+                matrix[j][i] = j*i;
+            }else
+                matrix[j][i] = j*i;
+        }
+        for (int i = 0; i < num1; i++) {
+            for (int k = 0; k < num2; k++) {
+                System.out.print(matrix[i][k] + " ");
             }
             System.out.println();
         }
+
     }
 }
